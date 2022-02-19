@@ -3,7 +3,7 @@ import './Footer.css'
 
 export default () => (
   <div>
-    <h2 className="taCenter">
+    {/* <h2 className="taCenter">
       Follow us{' '}
       <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
     </h2>
@@ -15,6 +15,6 @@ export default () => (
           <a href="https://thriveweb.com.au/">Thrive</a>.
         </span>
       </div>
-    </footer>
+    </footer> */}
   </div>
 )
