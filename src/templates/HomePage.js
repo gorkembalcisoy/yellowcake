@@ -5,10 +5,11 @@ import { Carousel } from 'react-bootstrap'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import PostSection from '../components/PostSection'
 import './HomePage.css'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, video, videoPoster, videoTitle,body }) => (
+export const HomePageTemplate = ({ posts, body }) => (
   <main className="Home">
     
     <div style={{ display: 'block'/* , width: 2000, padding: 30 */ }}>
@@ -31,19 +32,15 @@ export const HomePageTemplate = ({ title, subtitle, video, videoPoster, videoTit
           <Carousel.Caption/>
         </Carousel.Item>
       </Carousel>
-	</div>
+	  </div>
 
-  {/* <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="holder.js/100px180" />
-    <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
-      </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
-    </Card.Body>
-  </Card> */}
+    {!!posts.length && (
+            <section className="section">
+              <div className="container">
+                <PostSection posts={posts} />
+              </div>
+            </section>
+          )}
 
     <section className="section">
       <div className="container">
@@ -54,9 +51,18 @@ export const HomePageTemplate = ({ title, subtitle, video, videoPoster, videoTit
 )
 
 // Export Default HomePage for front-end
-const HomePage = ({ data: { page } }) => (
+const HomePage = ({ data: { page, posts } }) => (
   <Layout meta={page.frontmatter.meta || false}>
-    <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <HomePageTemplate 
+      {...page} 
+      {...page.frontmatter} 
+      posts={posts.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}  
+      body={page.html} 
+    />
   </Layout>
 )
 
@@ -75,6 +81,27 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+      }
+    }
+    posts: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "posts" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date
+            categories {
+              category
+            }
+            featuredImage
+          }
+        }
       }
     }
   }

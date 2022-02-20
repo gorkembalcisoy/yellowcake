@@ -7,10 +7,10 @@ class PostSection extends React.Component {
   static defaultProps = {
     posts: [],
     title: '',
-    limit: 12,
-    showLoadMore: true,
+    limit: 6,
+    showLoadMore: false,
     loadMoreTitle: 'Load More',
-    perPageLimit: 12
+    perPageLimit: 6
   }
 
   state = {

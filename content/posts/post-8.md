@@ -1,10 +1,10 @@
 ---
 template: SinglePost
-title: River
+title: Aile ve Çift Terapisi
 status: Published
 date: '2018-05-25'
 featuredImage: >-
-  https://ucarecdn.com/d6ad4f3e-40a1-49cf-8cf0-f06a25d08544/-/crop/1690x1484/0,882/-/preview/
+  https://ucarecdn.com/6cd19ef0-dc2f-49e3-9792-a90872e27395/
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
