@@ -1,5 +1,5 @@
 .Nav {
-  background: white;
+  background: #d6d4e0;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   height: 6rem;
+  min-height: 80px;
 }
 
 .Nav--Links {
@@ -34,11 +35,12 @@
 }
 
 .NavLink {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   display: block;
-  font-weight: 500;
+  font-weight: 800;
   transition: color 0.2s, border-bottom-color 0.2s;
-  color: inherit;
+  color: #622569;
+  font-size: 1.5rem;
   text-decoration: none;
   border-bottom: 2px solid;
   border-bottom-color: transparent;
@@ -47,8 +49,9 @@
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: var(--primary);
-  border-bottom-color: currentColor;
+  color: white;
+  background: #622569;
+  border-radius: 5%;
 }
 
 .Nav--Group {

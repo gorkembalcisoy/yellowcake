@@ -14,20 +14,20 @@ export const HomePageTemplate = ({ posts, body }) => (
     
     <div style={{ display: 'block'/* , width: 2000, padding: 30 */ }}>
       <Carousel>
-        <Carousel.Item interval={10000}>
+        <Carousel.Item interval={5000}>
           <img
             className="d-block w-100 slide"
-            src="https://ucarecdn.com/778902cf-20aa-4f64-80ca-5079a27c04ba/LOGO_almaYzeyi1kopya2.jpg"
+            src="https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/"
           />
           <Carousel.Caption/>
         </Carousel.Item>
-        <Carousel.Item interval={10000}>
+        <Carousel.Item interval={5000}>
           {/* <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}> */}
             {/* {video && <source src={video} type="video/mp4" />} */}
           {/* </BackgroundVideo> */}
           <img
             className="d-block w-100 slide"
-            src="https://ucarecdn.com/0b22b79b-be1a-46d4-bea5-8f9d499e2f33/LOGO_almaYzeyi1kopya2.jpg"
+            src="https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/"
           />
           <Carousel.Caption/>
         </Carousel.Item>
