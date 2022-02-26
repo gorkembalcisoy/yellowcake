@@ -109,6 +109,29 @@
 .Topbar {
   color: white;
   background-color: #622569;
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
+  height: 3rem;
+}
+
+.Topbar-infoText{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 40%;
+  padding-bottom: 4%;
+}
+
+.Topbar-facebook {
+  padding-left: 22%;
+}
+
+.Topbar-instagram {
+  padding-left: 1%;
+}
+
+.Topbar-linkedin {
+  padding-left: 1%;
 }
 
 @media (max-width: 600px) {

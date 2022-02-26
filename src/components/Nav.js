@@ -61,26 +61,19 @@ export class Navigation extends Component {
       <div>
         <div class="Topbar">
           <div>
-            <span>0312 321 0000</span>
-            <span>info@yasamboyupsikoloji.com</span>
-            <span>Pazartesi – Cumartesi 08:00 – 18:00 </span>
+            <span class="Topbar-infoText">0312 321 0000</span>
+            <span class="Topbar-infoText">info@yasamboyupsikoloji.com</span>
+            <span class="Topbar-infoText">Pazartesi – Cumartesi 08:00 – 18:00 </span>
+            <a title="Facebook" href="https://www.facebook.com" target="_blank" class="Topbar-facebook">
+              <img src="/images/facebook.svg"/>
+            </a>
+            <a title="Instagram" href="https://www.instagram.com/" target="_blank" class="Topbar-instagram">
+              <img src="/images/instagram.svg"/>
+            </a>
+            <a title="Linkedin" href="https://www.linkedin.com/" target="_blank" class="Topbar-linkedin">
+            <img src="/images/linkedin.svg"/>
+            </a>
           </div>			
-          <div>
-            <div>
-              <a title="Facebook" href="https://www.facebook.com" target="_blank" class="facebook">
-                <span class="soc-font-icon"></span>
-                <span class="screen-reader-text">Facebook</span>
-              </a>
-              <a title="Instagram" href="https://www.instagram.com/" target="_blank" class="instagram">
-                <span class="soc-font-icon"></span>
-                <span class="screen-reader-text">Instagram</span>
-              </a>
-              <a title="Linkedin" href="https://www.linkedin.com/" target="_blank" class="linkedin">
-                <span class="soc-font-icon"></span>
-                <span class="screen-reader-text">Linkedin</span>
-              </a>
-            </div>
-          </div>
         </div>
         <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
           <div className="Nav--Container container">
