@@ -59,7 +59,7 @@ export class Navigation extends Component {
 
     return (
       <div>
-        <div style={{color: 'white', backgroundColor: '#622569'}}>
+        <div class="Topbar">
           <div>
             <span>0312 321 0000</span>
             <span>info@yasamboyupsikoloji.com</span>
