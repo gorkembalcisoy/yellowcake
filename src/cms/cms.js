@@ -5,6 +5,7 @@ import './cms-utils'
 import { HomePageTemplate } from '../templates/HomePage'
 import { HizmetlerimizPageTemplate } from '../templates/HizmetlerimizPage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
+import { GaleriPageTemplate } from '../templates/GaleriPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
@@ -32,6 +33,9 @@ CMS.registerPreviewTemplate('hizmetlerimiz-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('galeri-page', ({ entry }) => (
+  <GaleriPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />

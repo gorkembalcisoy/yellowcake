@@ -91,7 +91,9 @@ export class Navigation extends Component {
               <NavLink to="/">ANA SAYFA</NavLink>
               <NavLink to="/components/">YAŞAM BOYU PSİKOLOJİ</NavLink>
               <NavLink to="/hizmetlerimiz/">HİZMETLERİMİZ</NavLink>
-              <div
+              <NavLink to="/galeri/">GALERİ</NavLink>
+              <NavLink to="/post-categories/news/">YAZILARIMIZ</NavLink>
+              {/* <div
                 className={`Nav--Group ${
                   this.state.activeSubNav === 'posts' ? 'active' : ''
                 }`}
@@ -110,7 +112,7 @@ export class Navigation extends Component {
                   aria-label="Navigation"
                   role="button"
                 >
-                  Blog
+                  YAZILARIMIZ
                   <div className="Nav--GroupLinks">
                     <NavLink to="/blog/" className="Nav--GroupLink">
                       All Posts
@@ -126,9 +128,8 @@ export class Navigation extends Component {
                     ))}
                   </div>
                 </span>
-              </div>
-              <NavLink to="/default/">Default</NavLink>
-              <NavLink to="/contact/">Contact</NavLink>
+              </div> */}
+              <NavLink to="/contact/">İLETİŞİM</NavLink>
             </div>
             <button
               className="Button-blank Nav--MenuButton"

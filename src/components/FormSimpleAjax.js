@@ -77,21 +77,21 @@ class Form extends React.Component {
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
+                placeholder="İsim"
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>İsim</span>
             </label>
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Lastname"
+                placeholder="Soyisim"
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>Soyisim</span>
             </label>
           </div>
           <fieldset>
@@ -103,7 +103,7 @@ class Form extends React.Component {
                 value="male"
                 defaultChecked
               />
-              <span>Male</span>
+              <span>Erkek</span>
             </label>
             <label className="Form--Label Form--Radio">
               <input
@@ -112,7 +112,7 @@ class Form extends React.Component {
                 name="gender"
                 value="female"
               />
-              <span>Female</span>
+              <span>Kadın</span>
             </label>
           </fieldset>
           <label className="Form--Label">
@@ -123,7 +123,7 @@ class Form extends React.Component {
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Email adresi</span>
           </label>
           <label className="Form--Label has-arrow">
             <select
@@ -133,22 +133,21 @@ class Form extends React.Component {
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                İletişim Sebebi
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Bilgi almak</option>
+              <option>Randevu almak</option>
             </select>
           </label>
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Message"
+              placeholder="Mesaj"
               name="message"
               rows="10"
               required
             />
-            <span>Message</span>
+            <span>Mesaj</span>
           </label>
           <label className="Form--Label Form-Checkbox">
             <input
@@ -156,7 +155,7 @@ class Form extends React.Component {
               name="newsletter"
               type="checkbox"
             />
-            <span>Get news updates</span>
+            <span>Önemli güncellemeleri almak istiyorum</span>
           </label>
           <div
             className="g-recaptcha"
@@ -167,7 +166,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Gönder"
             disabled={this.state.disabled}
           />
         </form>

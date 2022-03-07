@@ -1,12 +1,12 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: İletişim
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
+subtitle: 
+address: 'Remzi Oğuz Arık Mahallesi Atatürk Bulvarı Bulvar Apartmanı No:219/9 Çankaya-Ankara'
+phone: +90 501 347 2024
+email: info@yasamboyupsikoloji.com
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'

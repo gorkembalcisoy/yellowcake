@@ -29,7 +29,7 @@ export const ContactPageTemplate = ({
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
-          <Content source={body} />
+          {/* <Content source={body} /> */}
           <div className="Contact--Details">
             {address && (
               <a

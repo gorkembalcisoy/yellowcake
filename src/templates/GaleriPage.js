@@ -10,7 +10,7 @@ import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const ComponentsPageTemplate = ({
+export const GaleriPageTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -24,61 +24,30 @@ export const ComponentsPageTemplate = ({
   gallery
 }) => (
   <main>
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
+    
     <section className="section">
       <div className="container">
-        <Content source={section1} />
-      </div>
-    </section>
-{/* 
-    <section className="section">
-      <div className="container">
-        <h2>Our gallery component</h2>
+        <h2>Galeri</h2>
         <Gallery images={gallery} />
       </div>
-    </section> */}
-
-    {/* <section className="section">
-      <div className="container">
-        <Content source={section2} />
-      </div>
-    </section> */}
-
-{/* 
-    <section className="section">
-      <div className="container">
-        <Accordion items={accordion} />
-      </div>
     </section>
 
-    <section className="section">
-      <div className="container">
-        <Popup>
-          <Content source={section1} />
-        </Popup>
-      </div>
-    </section> */}
   </main>
 )
 
-const ComponentsPage = ({ data: { page } }) => (
+const GaleriPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <GaleriPageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
-export default ComponentsPage
+export default GaleriPage
 
 export const pageQuery = graphql`
-  query ComponentsPage($id: String!) {
+  query GaleriPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...Gallery
