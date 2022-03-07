@@ -154,7 +154,8 @@ blockquote {
 
 .section {
   width: 100%;
-  padding: 5rem 0;
+  padding: 2rem 0;
+  background-color: #d6d4e0;
   border-bottom: 1px solid #f1f1f1;
 }
 .section:last-child {

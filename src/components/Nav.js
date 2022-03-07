@@ -90,6 +90,7 @@ export class Navigation extends Component {
             <div className="Nav--Links">
               <NavLink to="/">ANA SAYFA</NavLink>
               <NavLink to="/components/">YAŞAM BOYU PSİKOLOJİ</NavLink>
+              <NavLink to="/hizmetlerimiz/">HİZMETLERİMİZ</NavLink>
               <div
                 className={`Nav--Group ${
                   this.state.activeSubNav === 'posts' ? 'active' : ''
