@@ -135,8 +135,8 @@ class Form extends React.Component {
               <option disabled hidden>
                 İletişim Sebebi
               </option>
-              <option>Bilgi almak</option>
-              <option>Randevu almak</option>
+              <option>Bilgi almak istiyorum</option>
+              <option>Randevu almak istiyorum</option>
             </select>
           </label>
           <label className="Form--Label">

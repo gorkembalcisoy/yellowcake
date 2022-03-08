@@ -42,11 +42,14 @@ export const HomePageTemplate = ({ posts, body }) => (
             </section>
           )}
 
+      
     <section className="section">
       <div className="container">
+        <h1>YAŞAM BOYU PSİKOLOJİ MERKEZİ (YAZI GUNCELLENECEKTIR)</h1>
         <Content source={body} />
       </div>
     </section>
+
   </main>
 )
 

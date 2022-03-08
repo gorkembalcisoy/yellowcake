@@ -5,7 +5,7 @@ title: Hakkımızda
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
 subtitle: 
 section1: >-
-  ## HAKKIMIZDA
+  ## YAŞAM BOYU PSİKOLOJİ MERKEZİ (YAZI GUNCELLENECEKTIR)
 
   A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
 
