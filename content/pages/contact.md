@@ -7,6 +7,7 @@ subtitle:
 address: 'Remzi Oğuz Arık Mahallesi Atatürk Bulvarı No:219 Bulvar Apartmanı Daire:9 Çankaya-Ankara'
 phone: +90 501 347 2024
 email: info@yasamboyupsikoloji.com
+workTime: Pazartesi – Cumartesi 08:00 – 18:00
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'

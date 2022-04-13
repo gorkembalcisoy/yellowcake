@@ -37,7 +37,7 @@
 .NavLink {
   padding: 0.5rem 2rem;
   display: block;
-  font-weight: 800;
+  font-weight: 400;
   transition: color 0.2s, border-bottom-color 0.2s;
   color: #622569;
   font-size: 1.5rem;
@@ -110,9 +110,9 @@
   color: white;
   background-color: #622569;
   text-align: center;
-  font-size: medium;
-  font-weight: 500;
-  height: 3rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 2.6rem;
 }
 
 .Topbar-infoText{

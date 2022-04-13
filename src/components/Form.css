@@ -44,6 +44,7 @@
 
 .Form--Input {
   font-family: inherit;
+  font-size: 1.4rem !important;
   flex-grow: 1;
   box-sizing: border-box;
   display: block;
