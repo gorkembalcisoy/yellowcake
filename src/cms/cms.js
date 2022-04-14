@@ -4,6 +4,8 @@ import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
 import { HizmetlerimizPageTemplate } from '../templates/HizmetlerimizPage'
+import { EgitimlerimizPageTemplate } from '../templates/EgitimlerimizPage'
+import { EkibimizPageTemplate } from '../templates/EkibimizPage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
 import { GaleriPageTemplate } from '../templates/GaleriPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
@@ -31,11 +33,17 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
 CMS.registerPreviewTemplate('hizmetlerimiz-page', ({ entry }) => (
   <HizmetlerimizPageTemplate {...entry.toJS().data} />
 ))
+CMS.registerPreviewTemplate('egitimlerimiz-page', ({ entry }) => (
+  <EgitimlerimizPageTemplate {...entry.toJS().data} />
+))
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('galeri-page', ({ entry }) => (
   <GaleriPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('ekibimiz-page', ({ entry }) => (
+  <EkibimizPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
