@@ -4,7 +4,7 @@ title: Bireysel Psikoterapi
 status: Published
 date: '2018-05-25'
 featuredImage: >-
-  https://ucarecdn.com/8996b57d-36b0-447c-9836-df208d3c8b13/
+  https://ucarecdn.com/c1ee400f-8eeb-43b6-8670-b39c700c6704/
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

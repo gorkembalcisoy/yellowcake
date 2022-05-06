@@ -3,7 +3,7 @@ template: SinglePost
 title: Eğitimler ve Seminerler
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/eb6f157d-1aa0-47e1-ae59-a70a88c190d2/'
+featuredImage: 'https://ucarecdn.com/eb8c7892-ea9d-468d-b342-ae49907908cf/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

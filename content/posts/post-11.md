@@ -3,7 +3,7 @@ template: SinglePost
 title: Çocuk Ve Ergen Terapisi
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/bd9ea71f-91fa-4449-b39e-f19b01c67025/'
+featuredImage: 'https://ucarecdn.com/aae66c4c-5007-41c0-8170-ce3c4f9340d4/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

@@ -4,7 +4,7 @@ title: Aile ve Çift Terapisi
 status: Published
 date: '2018-05-25'
 featuredImage: >-
-  https://ucarecdn.com/6cd19ef0-dc2f-49e3-9792-a90872e27395/
+  https://ucarecdn.com/a878d2c4-9b54-4f7e-ae5e-95c70ce8b896/
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

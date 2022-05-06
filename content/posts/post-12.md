@@ -3,7 +3,7 @@ template: SinglePost
 title: Cinsel Terapi
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/8718d763-ae4a-47cc-b898-b5ae1f9d028c/'
+featuredImage: 'https://ucarecdn.com/5cf107e6-23b6-46af-9224-3e0bf72dcdc0/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
