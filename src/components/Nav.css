@@ -115,6 +115,17 @@
   height: 2.6rem;
 }
 
+@media screen and (max-width: 500px) {
+  .Topbar {
+    color: white;
+    background-color: #622569;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    height: 2.6rem;
+  }
+}
+
 .Topbar-infoText{
   padding-left: 0%;
   padding-right: 2%;
@@ -123,7 +134,7 @@
 }
 
 .Topbar-facebook {
-  padding-left: 22%;
+  padding-left: 1%;
 }
 
 .Topbar-instagram {

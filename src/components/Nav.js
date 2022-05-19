@@ -69,10 +69,10 @@ export class Navigation extends Component {
             </a>
             <a title="Instagram" href="https://www.instagram.com/" target="_blank" class="Topbar-instagram">
               <img src="/images/instagram.svg"/>
-            </a>
+            </a>{/* 
             <a title="Linkedin" href="https://www.linkedin.com/" target="_blank" class="Topbar-linkedin">
             <img src="/images/linkedin.svg"/>
-            </a>
+            </a> */}
           </div>			
         </div>
         <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
