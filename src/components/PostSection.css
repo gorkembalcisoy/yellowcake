@@ -50,9 +50,9 @@
 
 @media screen and (max-width: 888px) {
   .PostSection--Grid > * {
-    width: 100%;
+    width: 36%;
     max-width: 50rem;
-    margin: 0 auto 4rem;
+    margin: 0 auto 2rem;
     display: block;
   }
 
