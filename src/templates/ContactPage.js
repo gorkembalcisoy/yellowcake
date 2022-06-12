@@ -22,11 +22,12 @@ export const ContactPageTemplate = ({
   locations
 }) => (
   <main className="Contact">
-    <PageHeader
+    {/* <PageHeader
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-    />
+    /> */}
+    <GoogleMap locations={locations} />
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
@@ -67,8 +68,6 @@ export const ContactPageTemplate = ({
         </div>
       </div>
     </section>
-
-    <GoogleMap locations={locations} />
   </main>
 )
 

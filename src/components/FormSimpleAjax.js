@@ -94,7 +94,7 @@ class Form extends React.Component {
               <span>Soyisim</span>
             </label>
           </div>
-          <fieldset>
+          {/* <fieldset>
             <label className="Form--Label Form--Radio">
               <input
                 className="Form--RadioInput"
@@ -114,7 +114,7 @@ class Form extends React.Component {
               />
               <span>Kadın</span>
             </label>
-          </fieldset>
+          </fieldset> */}
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -125,7 +125,7 @@ class Form extends React.Component {
             />
             <span>Email adresi</span>
           </label>
-          <label className="Form--Label has-arrow">
+          {/* <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
               name="type"
@@ -138,17 +138,17 @@ class Form extends React.Component {
               <option>Bilgi almak istiyorum</option>
               <option>Randevu almak istiyorum</option>
             </select>
-          </label>
+          </label> */}
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
               placeholder="Mesaj"
               name="message"
-              rows="10"
+              rows="3"
               required
             />
             <span>Mesaj</span>
-          </label>
+          </label>{/* 
           <label className="Form--Label Form-Checkbox">
             <input
               className="Form--Input Form--Textarea Form--CheckboxInput"
@@ -156,7 +156,7 @@ class Form extends React.Component {
               type="checkbox"
             />
             <span>Önemli güncellemeleri almak istiyorum</span>
-          </label>
+          </label> */}
           <div
             className="g-recaptcha"
             data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"

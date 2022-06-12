@@ -11,11 +11,11 @@ export const HizmetlerimizPageTemplate = ({ posts, video,
   videoTitle, body }) => (
   <main className="Home">
     
-    <section className="BackgroundVideo-section section">
+    {/* <section className="BackgroundVideo-section section">
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
-    </section>
+    </section> */}
 
     {!!posts.length && (
             <section className="section">

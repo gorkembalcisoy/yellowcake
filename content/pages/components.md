@@ -5,12 +5,28 @@ title: Hakkımızda
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
 subtitle: 
 section1: >-
-  ## YAŞAM BOYU PSİKOLOJİ MERKEZİ (YAZI GUNCELLENECEKTIR)
+  # Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık; toplum, aile ve bireylerin ruh sağlığı alanıyla yakından ilişkili konularda eğitilmesi, ruh sağlığının iyileştirilmesi ve güçlendirilmesi amacıyla kurulmuştur. 
+  
+  Merkezimizde uluslararası akredite terapi sertifikalarına sahip uzmanlarımızla; çocuk, ergen ve yetişkinlere yönelik bireysel ve çift terapi seansları verilmektedir. Ayrıca alan uzmanlarına ve kurumlara psikoloji disiplini çerçevesinde danışmanlık yapılmakta ve eğitim programları düzenlenmektedir.
+  
+  Merkezimizde bulunan uzman kadromuzu etik sınırlara duyarlı, klinik deneyimleri olan; Dr., Uzm. Klinik Psikolog, Psikolog, Uzm. Psikolojik Danışman ve Psikolojik Danışmanlardan oluşmaktadır. Siz ve sevdiklerinizin yaşadıkları sorunlara çözüm bulmak için merkezimizde farklı psikoterapi yaklaşımları kullanılmaktadır. 
 
+  Merkezimizde kullanılan terapi yaklaşımları:
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  * EMDR Terapi
+  * Gestalt Terapi
+  *	Bilişsel Davranışçcı Terapi (CBT)
+  * Akılcı Duygusal Davranışçı Terapi (ADDT)
+  * Kısa Süreli Çözüm Odaklı Terapi
+  * Pozitif Psikoterapi (PP)
+  * Cinsel Terapi
+  * Duygu Odaklı Çift Terapisi (DOÇ)
+  * Gottman Çift Terapi
+  * Sistemik Aile Terapi
+  * Deneyimsel Oyun Terapi
+
 section2: >-
   ## You can use videos, images and text.
 
