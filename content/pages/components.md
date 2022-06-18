@@ -5,27 +5,41 @@ title: Hakkımızda
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
 subtitle: 
 section1: >-
-  # Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık
+  # ** Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık **
 
-  Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık; toplum, aile ve bireylerin ruh sağlığı alanıyla yakından ilişkili konularda eğitilmesi, ruh sağlığının iyileştirilmesi ve güçlendirilmesi amacıyla kurulmuştur. 
   
+  Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık; toplum, aile ve bireylerin ruh sağlığı alanıyla yakından ilişkili konularda eğitilmesi, ruh sağlığının iyileştirilmesi ve güçlendirilmesi amacıyla kurulmuştur.
+  
+
   Merkezimizde uluslararası akredite terapi sertifikalarına sahip uzmanlarımızla; çocuk, ergen ve yetişkinlere yönelik bireysel ve çift terapi seansları verilmektedir. Ayrıca alan uzmanlarına ve kurumlara psikoloji disiplini çerçevesinde danışmanlık yapılmakta ve eğitim programları düzenlenmektedir.
+
   
-  Merkezimizde bulunan uzman kadromuzu etik sınırlara duyarlı, klinik deneyimleri olan; Dr., Uzm. Klinik Psikolog, Psikolog, Uzm. Psikolojik Danışman ve Psikolojik Danışmanlardan oluşmaktadır. Siz ve sevdiklerinizin yaşadıkları sorunlara çözüm bulmak için merkezimizde farklı psikoterapi yaklaşımları kullanılmaktadır. 
+  Merkezimizde bulunan uzman kadromuzu etik sınırlara duyarlı, klinik deneyimleri olan; ** Dr., Uzm. Klinik Psikolog, Psikolog, Uzm. Psikolojik Danışman ve Psikolojik Danışmanlardan ** oluşmaktadır. Siz ve sevdiklerinizin yaşadıkları sorunlara çözüm bulmak için merkezimizde farklı psikoterapi yaklaşımları kullanılmaktadır. 
 
-  Merkezimizde kullanılan terapi yaklaşımları:
 
-  * EMDR Terapi
-  * Gestalt Terapi
-  *	Bilişsel Davranışçcı Terapi (CBT)
-  * Akılcı Duygusal Davranışçı Terapi (ADDT)
-  * Kısa Süreli Çözüm Odaklı Terapi
-  * Pozitif Psikoterapi (PP)
-  * Cinsel Terapi
-  * Duygu Odaklı Çift Terapisi (DOÇ)
-  * Gottman Çift Terapi
-  * Sistemik Aile Terapi
-  * Deneyimsel Oyun Terapi
+  *Merkezimizde kullanılan terapi yaklaşımları:*
+
+  > #### EMDR Terapi
+
+  #### Gestalt Terapi
+  
+  #### Bilişsel Davranışçcı Terapi (CBT)
+  
+  #### Akılcı Duygusal Davranışçı Terapi (ADDT)
+  
+  #### Kısa Süreli Çözüm Odaklı Terapi
+  
+  #### Pozitif Psikoterapi (PP)
+  
+  #### Cinsel Terapi
+  
+  #### Duygu Odaklı Çift Terapisi (DOÇ)
+  
+  #### Gottman Çift Terapi
+  
+  #### Sistemik Aile Terapi
+  
+  #### Deneyimsel Oyun Terapi
 
 section2: >-
   ## You can use videos, images and text.

@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Bireysel Psikoterapi
+title: Bireysel Terapi
 status: Published
 date: '2018-05-25'
 featuredImage: >-
