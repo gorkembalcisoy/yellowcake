@@ -1,5 +1,5 @@
 ---
-template: BlogIndex
+template: HomePage
 title: News
 subtitle: ''
 featuredImage: >-
