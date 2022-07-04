@@ -10,7 +10,17 @@ const PostCategoriesNav = ({ categories, enableSearch }) => (
     <Link className="NavLink" exact="true" to={`/blog/`}>
       All
     </Link>
-    <Accordion items={[{title:"TEST",description:"222",link:"http://google.com",linkTitle:"GGG"}]}/>
+    <Link to={`/blog/`} className="PostCard">
+    {/* {featuredImage && (
+      <div className="PostCard--Image relative">
+        <Image background src={featuredImage} alt={title} />
+      </div>
+    )} */}
+    <div className="PostCard--Content">
+      <h3 className="PostCard--Title">All</h3>
+      <div className="PostCard--Excerpt">excerpt</div>
+    </div>
+  </Link>
     {categories.map((category, index) => (
       <Link
         exact="true"
