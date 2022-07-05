@@ -62,26 +62,26 @@ export const BlogIndexTemplate = ({
       }
 
       return (
-        <main className="Blog">
+        <main className="Home">
 
           <PageHeader
             title={title}
             subtitle={subtitle}
             backgroundImage={featuredImage}
           />
-          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '48px',fontWeight: '600',textAlign: 'center'}}>
+          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '40px',fontWeight: '600',textAlign: 'center'}}>
             Hizmetlerimiz
           </div>
 
           {!!postCategories.length && (
-            <section className="section thin">
+            <section className="section">
               <div className="container">
                 <PostCategoriesNav categories={postCategories} />
               </div>
             </section>
           )}
 
-          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '48px',fontWeight: '600',textAlign: 'center'}}>
+          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '40px',fontWeight: '600',textAlign: 'center'}}>
             Son Eklenen Yazılarımız
           </div>
 

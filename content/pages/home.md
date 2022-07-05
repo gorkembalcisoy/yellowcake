@@ -1,9 +1,9 @@
 ---
 template: HomePage
 slug: ''
-title: 'Danışan odaklı hizmetlerimizle '
-subtitle: 'yaşam boyu yanınızdayız...'
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
+title: 'Yaşam Boyu Psikoloji '
+subtitle: 'danışan odaklı hizmetleri ile yaşam boyu yanınızda'
+featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
 meta:
   description: This is a meta description.
   title: Ana Sayfa
