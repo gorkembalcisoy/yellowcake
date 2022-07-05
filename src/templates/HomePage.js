@@ -63,7 +63,16 @@ export const BlogIndexTemplate = ({
 
       return (
         <main className="Blog">
-          
+
+          <PageHeader
+            title={title}
+            subtitle={subtitle}
+            backgroundImage={featuredImage}
+          />
+          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '48px',fontWeight: '600',textAlign: 'center'}}>
+            Hizmetlerimiz
+          </div>
+
           {!!postCategories.length && (
             <section className="section thin">
               <div className="container">
@@ -71,6 +80,10 @@ export const BlogIndexTemplate = ({
               </div>
             </section>
           )}
+
+          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '48px',fontWeight: '600',textAlign: 'center'}}>
+            Son Eklenen Yazılarımız
+          </div>
 
           {!!posts.length && (
             <section className="section">
@@ -164,6 +177,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            featuredImage
+            excerpt
           }
         }
       }
