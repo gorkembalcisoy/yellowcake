@@ -1,11 +1,9 @@
 ---
 template: HomePage
 slug: ''
-title: 
+title: ''
 subtitle: ''
-video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
-videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
-videoTitle: Also background videos, with poster image & title overlay.
+featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
 meta:
   description: This is a meta description.
   title: Ana Sayfa

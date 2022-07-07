@@ -1,14 +1,16 @@
 ---
 template: SinglePost
-title: Çocuk ve Ergen Terapisi
+title: Sınav Kaygısı İle Başa Çıkma
 status: Published
 date: '2022-06-18'
-featuredImage: 'https://ucarecdn.com/aae66c4c-5007-41c0-8170-ce3c4f9340d4/'
+featuredImage: 'https://ucarecdn.com/b89e588f-5659-47e9-9caa-6be0ad058572/-/crop/1690x1728/0,638/-/preview/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
   website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Çocuk ve Ergen Terapisi
 meta:
   description: test meta description
   title: test meta title

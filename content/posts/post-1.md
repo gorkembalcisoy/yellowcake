@@ -1,10 +1,12 @@
 ---
 template: SinglePost
-title: Çift ve Aile Terapisi
+title: Boşanma & Ayrılma
 status: Published
 date: '2022-06-18'
+categories:
+  - category: Aile ve Çift Terapisi
 featuredImage: >-
-  https://ucarecdn.com/a878d2c4-9b54-4f7e-ae5e-95c70ce8b896/
+  https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

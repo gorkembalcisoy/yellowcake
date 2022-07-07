@@ -1,91 +1,150 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Location } from '@reach/router'
+import qs from 'qs'
 import { Carousel } from 'react-bootstrap'
-
-import BackgroundVideo from '../components/BackgroundVideo'
-import Content from '../components/Content'
-import Layout from '../components/Layout'
+import PageHeader from '../components/PageHeader'
 import PostSection from '../components/PostSection'
-import './HomePage.css'
+import PostCategoriesNav from '../components/PostCategoriesNav'
+import Layout from '../components/Layout'
+
+/**
+ * Filter posts by date. Feature dates will be fitered
+ * When used, make sure you run a cronejob each day to show schaduled content. See docs
+ *
+ * @param {posts} object
+ */
+export const byDate = posts => {
+  const now = Date.now()
+  return posts.filter(post => Date.parse(post.date) <= now)
+}
+
+/**
+ * filter posts by category.
+ *
+ * @param {posts} object
+ * @param {title} string
+ * @param {contentType} string
+ */
+export const byCategory = (posts, title, contentType) => {
+  const isCategory = contentType === 'postCategories'
+  const byCategory = post =>
+    post.categories &&
+    post.categories.filter(cat => cat.category === title).length
+  return isCategory ? posts.filter(byCategory) : posts
+}
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ posts, body }) => (
-  <main className="Home">
-    
-    <div style={{ display: 'block'/* , width: 2000, padding: 30 */ }}>
-      <Carousel>
-        <Carousel.Item interval={5000}>
-          <img
-            className="d-block w-100 slide"
-            src="https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/"
-          />
-          <Carousel.Caption/>
-        </Carousel.Item>
-        <Carousel.Item interval={5000}>
-          {/* <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}> */}
-            {/* {video && <source src={video} type="video/mp4" />} */}
-          {/* </BackgroundVideo> */}
-          <img
-            className="d-block w-100 slide"
-            src="https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/"
-          />
-          <Carousel.Caption/>
-        </Carousel.Item>
-      </Carousel>
-	  </div>
+export const BlogIndexTemplate = ({
+  title,
+  subtitle,
+  featuredImage,
+  posts = [],
+  postCategories = [],
+  enableSearch = true,
+  contentType
+}) => (
+  <Location>
+    {({ location }) => {
+      let filteredPosts =
+        posts && !!posts.length
+          ? byCategory(byDate(posts), title, contentType)
+          : []
 
-    {!!posts.length && (
+      let queryObj = location.search.replace('?', '')
+      queryObj = qs.parse(queryObj)
+
+      if (enableSearch && queryObj.s) {
+        const searchTerm = queryObj.s.toLowerCase()
+        filteredPosts = filteredPosts.filter(post =>
+          post.frontmatter.title.toLowerCase().includes(searchTerm)
+        )
+      }
+
+      return (
+        <main className="Home">
+
+          <PageHeader
+            title={title}
+            subtitle={subtitle}
+            backgroundImage={featuredImage}
+          />
+          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '40px',fontWeight: '600',textAlign: 'center'}}>
+            Hizmetlerimiz
+          </div>
+
+          {!!postCategories.length && (
             <section className="section">
               <div className="container">
-                <PostSection posts={posts} />
+                <PostCategoriesNav categories={postCategories} />
               </div>
             </section>
           )}
 
-      
-    <section className="section">
-      <div className="container">
-        <h1>YAŞAM BOYU PSİKOLOJİ, EĞİTİM VE DANIŞMANLIK</h1>
-        <Content source={body} />
-      </div>
-    </section>
+          <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '40px',fontWeight: '600',textAlign: 'center'}}>
+            Son Eklenen Yazılarımız
+          </div>
 
-  </main>
+          {!!posts.length && (
+            <section className="section">
+              <div className="container">
+                <PostSection posts={filteredPosts} />
+              </div>
+            </section>
+          )}
+
+        </main>
+      )
+    }}
+  </Location>
 )
 
-// Export Default HomePage for front-end
-const HomePage = ({ data: { page, posts } }) => (
-  <Layout meta={page.frontmatter.meta || false}>
-    <HomePageTemplate 
-      {...page} 
-      {...page.frontmatter} 
+// Export Default BlogIndex for front-end
+const BlogIndex = ({ data: { page, posts, postCategories } }) => (
+  <Layout
+    meta={page.frontmatter.meta || false}
+    title={page.frontmatter.title || false}
+  >
+    <BlogIndexTemplate
+      {...page}
+      {...page.fields}
+      {...page.frontmatter}
       posts={posts.edges.map(post => ({
         ...post.node,
         ...post.node.frontmatter,
         ...post.node.fields
-      }))}  
-      body={page.html} 
+      }))}
+      postCategories={postCategories.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}
     />
   </Layout>
 )
 
-export default HomePage
+export default BlogIndex
 
 export const pageQuery = graphql`
-  ## Query for HomePage data
+  ## Query for BlogIndex data
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
-  query HomePage($id: String!) {
+  query BlogIndex($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      html
+      fields {
+        contentType
+      }
       frontmatter {
         title
+        excerpt
+        template
         subtitle
         featuredImage
       }
     }
+
     posts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
@@ -103,6 +162,23 @@ export const pageQuery = graphql`
               category
             }
             featuredImage
+          }
+        }
+      }
+    }
+    postCategories: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "postCategories" } } }
+      sort: { order: ASC, fields: [frontmatter___title] }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            featuredImage
+            excerpt
           }
         }
       }

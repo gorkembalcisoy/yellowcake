@@ -1,15 +1,17 @@
 ---
 template: SinglePost
-title: Bireysel Terapi
+title: Depresyon
 status: Published
 date: '2018-05-25'
 featuredImage: >-
-  https://ucarecdn.com/c1ee400f-8eeb-43b6-8670-b39c700c6704/
+  https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
   website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Bireysel Terapi
 meta:
   description: test meta description
   title: test meta title
