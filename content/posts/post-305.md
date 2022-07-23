@@ -3,8 +3,7 @@ template: SinglePost
 title: Mitomani nedir? Belirtileri Nelerdir?
 status: Published
 date: '2022-06-18'  
-featuredImage: >-
-  https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/
+featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

@@ -4,11 +4,21 @@
 }
 
 .BackgroundImage {
-  position: absolute;
+  /* position: absolute;   GALERİ ve EKİBİMİZ resimlerini bozuyor*/ 
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.PostCard--Image .BackgroundImage {
+  top: 0;
+  left: 28% !important;
+  bottom: 0;
+  right: 28% !important;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;

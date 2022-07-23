@@ -126,8 +126,8 @@ export class Navigation extends Component {
                   </div>
                 </span>
               </div>
-              <NavLink to="/galeri/">GALERİ</NavLink>
-              <NavLink to="/ekibimiz/">EKİBİMİZ</NavLink>
+              {/* <NavLink to="/galeri/">GALERİ</NavLink> */}
+              {/* <NavLink to="/ekibimiz/">EKİBİMİZ</NavLink> */}
               <NavLink to="/contact/">İLETİŞİM</NavLink>
             </div>
             <button
