@@ -64,11 +64,45 @@ export const BlogIndexTemplate = ({
       return (
         <main className="Home">
 
-          <PageHeader
-            title={title}
-            subtitle={subtitle}
-            backgroundImage={featuredImage}
-          />
+          {/* <PageHeader */}
+            {/* title={title} */}
+            {/* subtitle={subtitle} */}
+            {/* backgroundImage={featuredImage} */}
+          {/* /> */}
+          
+          <div style={{ display: 'inline', width: 1000 }}>
+            <Carousel>
+              <Carousel.Item interval={5000}>
+                <img
+                  className="d-block w-100 slide"
+                  src="https://ucarecdn.com/3dc232d1-98c3-47f9-adae-5f1830c23674/"
+                />
+                <Carousel.Caption/>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className="d-block w-100 slide"
+                  src="https://ucarecdn.com/079d1af1-473c-4681-a87a-1be5608459af/"
+                />
+                <Carousel.Caption/>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className="d-block w-100 slide"
+                  src="https://ucarecdn.com/98a778e8-d635-4293-928e-47e35f530b66/"
+                />
+                <Carousel.Caption/>
+              </Carousel.Item>
+              <Carousel.Item interval={5000}>
+                <img
+                  className="d-block w-100 slide"
+                  src="https://ucarecdn.com/5fbbb2be-2807-453d-b635-381b0914f1fb/"
+                />
+                <Carousel.Caption/>
+              </Carousel.Item>
+            </Carousel>
+          </div>
+
           <div style={{backgroundColor: '#d6d4e0',color: '#334e68',width: '100%',fontSize: '40px',fontWeight: '600',textAlign: 'center'}}>
             Hizmetlerimiz
           </div>

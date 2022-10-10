@@ -16,9 +16,9 @@
 
 .PostCard--Image .BackgroundImage {
   top: 0;
-  left: 28% !important;
+  left: 15% !important;
   bottom: 0;
-  right: 28% !important;
+  right: 15% !important;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
