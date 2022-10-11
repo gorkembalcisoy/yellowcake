@@ -3,7 +3,7 @@ template: SinglePost
 title: Alt Islatma (Enürezis) ve Dışkı Kaçırma (Enkopresiz)
 status: Published
 date: '2022-06-18'
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/f0977b39-7fed-4835-8b4f-a8864c1b5a0c/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

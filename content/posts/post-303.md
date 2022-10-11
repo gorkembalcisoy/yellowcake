@@ -3,7 +3,7 @@ template: SinglePost
 title: Obsesif Kompulsif Bozukluk (OKB) Nedir? Belirtileri Nelerdir?
 status: Published
 date: '2022-06-18'  
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/12ee9903-254f-4ae1-962d-d1dad1a0ebba/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

@@ -3,7 +3,7 @@ template: SinglePost
 title: Sosyal Fobi Nedir? Belirtileri Nelerdir?
 status: Published
 date: '2022-06-18' 
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/aadf809c-db67-4085-823e-a5d1ace9f92e/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

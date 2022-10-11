@@ -6,7 +6,7 @@ date: '2022-06-18'
 categories:
   - category: Aile ve Çift Terapisi
 featuredImage: >-
-  https://ucarecdn.com/29ac8a24-0ffb-4036-9bed-56c66e2f4edd/
+  https://ucarecdn.com/cd73ed42-7b2a-437b-b5cc-b2407c1cef6d/
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

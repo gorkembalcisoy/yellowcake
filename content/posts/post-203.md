@@ -3,7 +3,7 @@ template: SinglePost
 title: Tırnak Yeme
 status: Published
 date: '2022-06-18'
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/51397a36-6aab-4cbf-a2cd-f6072b792891/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

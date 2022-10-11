@@ -3,7 +3,7 @@ template: SinglePost
 title: Yeme Bozukluğu Nedir? Belirtileri Nelerdir?
 status: Published
 date: '2022-06-18' 
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/65d925c2-5961-4fd9-a742-c2396b40523a/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

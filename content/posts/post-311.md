@@ -3,7 +3,7 @@ template: SinglePost
 title: Travma Nedir? Belirtileri Nelerdir?
 status: Published
 date: '2022-06-18' 
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/65094819-c1a0-4a30-8d5b-d9390d274e25/'
 
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words

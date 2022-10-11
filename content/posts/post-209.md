@@ -3,7 +3,7 @@ template: SinglePost
 title: Çocuk İhmal ve İstismarı
 status: Published
 date: '2022-06-18'
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/33a7a560-a271-45b2-9497-8ce67753bf6d/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the

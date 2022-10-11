@@ -64,15 +64,17 @@ export class Navigation extends Component {
             <span class="Topbar-infoText">0312 321 0000</span>
             <span class="Topbar-infoText">info@yasamboyupsikoloji.com</span>
             <span class="Topbar-infoText">Pazartesi – Cumartesi 08:00 – 18:00 </span>
-            <a title="Facebook" href="https://www.facebook.com" target="_blank" class="Topbar-facebook">
+            {/* <a title="Facebook" href="https://www.facebook.com" target="_blank" class="Topbar-facebook">
               <img src="/images/facebook.svg"/>
-            </a>
-            <a title="Instagram" href="https://www.instagram.com/" target="_blank" class="Topbar-instagram">
+            </a> */}
+            <a title="Instagram" href="https://www.instagram.com/yasamboyu_psikoloji" target="_blank" class="Topbar-instagram">
               <img src="/images/instagram.svg"/>
-            </a>{/* 
+            </a>
+            {/* 
             <a title="Linkedin" href="https://www.linkedin.com/" target="_blank" class="Topbar-linkedin">
             <img src="/images/linkedin.svg"/>
-            </a> */}
+            </a> 
+            */}
           </div>			
         </div>
         <nav className={`Nav ${active ? 'Nav-active' : ''}`}>

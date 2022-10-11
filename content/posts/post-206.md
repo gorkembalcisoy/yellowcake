@@ -3,7 +3,7 @@ template: SinglePost
 title: Kardeş Kıskançlığı
 status: Published
 date: '2022-06-18'
-featuredImage: 'https://ucarecdn.com/c27a415c-5c14-4e9f-9bc1-e8398e1050c3/'
+featuredImage: 'https://ucarecdn.com/b31b9c85-2c3c-41af-afe1-9fe5f5d51222/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
