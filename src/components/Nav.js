@@ -61,7 +61,7 @@ export class Navigation extends Component {
       <div>
         <div class="Topbar">
           <div>
-            <span class="Topbar-infoText">0312 321 0000</span>
+            <span class="Topbar-infoText">0501 347 20 24</span>
             <span class="Topbar-infoText">info@yasamboyupsikoloji.com</span>
             <span class="Topbar-infoText">Pazartesi – Cumartesi 08:00 – 18:00 </span>
             {/* <a title="Facebook" href="https://www.facebook.com" target="_blank" class="Topbar-facebook">
