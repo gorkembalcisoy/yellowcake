@@ -24,11 +24,16 @@ export const EkibimizPageTemplate = ({
   gallery
 }) => (
   <main>
+
+<PageHeader
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
     
     <section className="section">
       <div className="container">
-        <h2>Ekibimiz</h2>
-        <Gallery images={gallery} />
+        <Accordion items={accordion}/>
       </div>
     </section>
 

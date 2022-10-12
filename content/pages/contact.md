@@ -14,7 +14,7 @@ locations:
     mapLink: ''
 meta:
   description: This is a meta description.
-  title: Contact Page
+  title: İletişim
 ---
 
 # Example contact form

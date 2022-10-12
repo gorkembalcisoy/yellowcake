@@ -1,9 +1,9 @@
 ---
 template: EkibimizPage
 slug: ekibimiz
-title: Ekibimiz Page
-featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
-subtitle: This is the components page subtitle.
+title: Ekibimiz
+featuredImage: https://ucarecdn.com/8b584af5-fb6d-41c5-8187-ce94d9e65fc4/
+subtitle:
 section1: >-
   ## HAKKIMIZDA
 
@@ -20,25 +20,11 @@ video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
 videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: Also background videos, with poster image & title overlay.
 accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-gallery:
-  - alt: yellow rope image
-    image: https://ucarecdn.com/2818b73d-61d0-4f62-855f-c729e121c584/
-    title: Tufan Emir Çaykuş
-  - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Personel-2
-  - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Personel-3
+  - description: ---
+    title: Emir Tufan Çaykuş
+  - description: ---
+    title: Dilara Numanoğlu
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Ekibimiz
 ---

@@ -75,28 +75,28 @@ export const BlogIndexTemplate = ({
               <Carousel.Item interval={5000}>
                 <img
                   className="d-block w-100 slide"
-                  src="https://ucarecdn.com/3dc232d1-98c3-47f9-adae-5f1830c23674/"
+                  src="https://ucarecdn.com/85bfe179-cde9-491c-a52c-a180d3dcd0e1/"
                 />
                 <Carousel.Caption/>
               </Carousel.Item>
               <Carousel.Item interval={5000}>
                 <img
                   className="d-block w-100 slide"
-                  src="https://ucarecdn.com/079d1af1-473c-4681-a87a-1be5608459af/"
+                  src="https://ucarecdn.com/a8577cef-d611-492f-8a36-92da23207d55/"
                 />
                 <Carousel.Caption/>
               </Carousel.Item>
               <Carousel.Item interval={5000}>
                 <img
                   className="d-block w-100 slide"
-                  src="https://ucarecdn.com/98a778e8-d635-4293-928e-47e35f530b66/"
+                  src="https://ucarecdn.com/023f7b3e-0b7d-401c-a88e-388471f4a8df/"
                 />
                 <Carousel.Caption/>
               </Carousel.Item>
               <Carousel.Item interval={5000}>
                 <img
                   className="d-block w-100 slide"
-                  src="https://ucarecdn.com/5fbbb2be-2807-453d-b635-381b0914f1fb/"
+                  src="https://ucarecdn.com/c57e0f74-3c42-436c-a7d2-94dc7be701d0/"
                 />
                 <Carousel.Caption/>
               </Carousel.Item>

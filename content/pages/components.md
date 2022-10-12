@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: components
 title: Hakkımızda
-featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
+featuredImage: https://ucarecdn.com/8b584af5-fb6d-41c5-8187-ce94d9e65fc4/
 subtitle: 
 section1: >-
   # ** Yaşam Boyu Psikoloji, Eğitim ve Danışmanlık **
@@ -70,5 +70,5 @@ gallery:
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Hakkımızda
 ---
