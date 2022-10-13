@@ -28,7 +28,7 @@ accordion:
     title: Klnk.Psk. Esen Dinçel Temur
   - description: ---
     title: Psk. Seda Dilara Numanoğlu
-    - description: ---
+  - description: ---
     title: Psk.Dan. Saniye Akburu
 meta:
   description: This is a meta description.
