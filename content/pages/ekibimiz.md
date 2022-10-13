@@ -21,9 +21,15 @@ videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: Also background videos, with poster image & title overlay.
 accordion:
   - description: ---
-    title: Emir Tufan Çaykuş
+    title: Dr. Emir Tufan Çaykuş
   - description: ---
-    title: Dilara Numanoğlu
+    title: Doç.Dr. Hüdayer Cihan
+  - description: ---
+    title: Klnk.Psk. Esen Dinçel Temur
+  - description: ---
+    title: Psk. Seda Dilara Numanoğlu
+    - description: ---
+    title: Psk.Dan. Saniye Akburu
 meta:
   description: This is a meta description.
   title: Ekibimiz
